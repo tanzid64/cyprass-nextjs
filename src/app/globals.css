@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body{
+  height: 100%;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,12 +15,6 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
