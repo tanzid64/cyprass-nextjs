@@ -6,9 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "push": "drizzle-kit push",
+    "pull": "drizzle-kit introspect",
+    "generate": "drizzle-kit generate --config=drizzle.config.ts",
+    "drop": "drizzle-kit drop",
+    "check": "drizzle-kit check",
+    "up": "drizzle-kit up",
+    "migrate": "npm run src/lib/supabase/migration.ts"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "drizzle-orm": "^0.33.0",
     "lucide-react": "^0.439.0",
     "next": "14.2.8",
