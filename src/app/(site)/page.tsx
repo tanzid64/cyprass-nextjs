@@ -294,7 +294,7 @@ const HomePage = (props: Props) => {
                     {card.description}
                   </p>
                   <Button
-                    variant="secondary"
+                    variant="btn-primary"
                     className="whitespace-nowrap w-full mt-4"
                   >
                     {card.planType === PRICING_PLANS.proplan
